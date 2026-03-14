@@ -79,15 +79,19 @@ export default function Footer() {
 
           {/* Social / Follow */}
           <div>
+            <h3 className="font-semibold text-sm text-foreground mb-4">
+              Connect with me
+            </h3>
             <p className="text-sm text-muted mb-4">
-              Want to follow along as I build WeyDocs? I share my progress
-              publicly.
+              Have feedback or just want to connect? Find me on LinkedIn.
             </p>
             <a
-              href="mailto:waleedahmad.codes@gmail.com"
+              href="https://www.linkedin.com/in/wal33dahmad"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-accent hover:text-foreground transition-colors"
             >
-              waleedahmad.codes@gmail.com
+              linkedin.com/in/wal33dahmad
             </a>
           </div>
         </div>
