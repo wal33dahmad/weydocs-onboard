@@ -38,28 +38,6 @@ export default function ContactPage() {
           />
         </div>
 
-        {/* Previous mailto form — kept for reference
-        <form
-          action="mailto:waleedahmad.codes@gmail.com"
-          method="POST"
-          encType="text/plain"
-          className="max-w-lg space-y-6"
-        >
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-            <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-xl border border-border bg-white text-foreground text-sm" placeholder="Your name" />
-          </div>
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-            <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-xl border border-border bg-white text-foreground text-sm" placeholder="you@example.com" />
-          </div>
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-            <textarea id="message" name="message" rows={5} required className="w-full px-4 py-3 rounded-xl border border-border bg-white text-foreground text-sm resize-none" placeholder="What's on your mind?" />
-          </div>
-          <button type="submit" className="bg-accent text-white px-7 py-3 rounded-full text-sm font-medium">Send Message</button>
-        </form>
-        */}
       </main>
 
       <Footer />
