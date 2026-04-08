@@ -15,12 +15,14 @@ export default function Header() {
           />
           WeyDocs
         </Link>
-        <Link
-          href="/waitlist"
+        <a
+          href="https://play.google.com/store/apps/details?id=com.wal33dahmad.weydocs"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm bg-accent text-white px-5 py-2.5 rounded-full font-semibold hover:bg-accent-dark transition-colors"
         >
-          Join Waitlist
-        </Link>
+          Download App
+        </a>
       </div>
     </header>
   );

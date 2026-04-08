@@ -22,16 +22,28 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.wal33dahmad.weydocs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-accent hover:text-foreground transition-colors"
+                >
+                  Play Store App
+                </a>
+              </li>
+              <li>
                 <span className="text-sm text-muted/50 cursor-not-allowed">
-                  Play Store App{" "}
+                  App Store{" "}
                   <span className="text-xs text-muted/40">(Coming soon)</span>
                 </span>
               </li>
               <li>
-                <span className="text-sm text-muted/50 cursor-not-allowed">
-                  Feedback board{" "}
-                  <span className="text-xs text-muted/40">(Coming soon)</span>
-                </span>
+                <Link
+                  href="/feedback"
+                  className="text-sm text-accent hover:text-foreground transition-colors"
+                >
+                  Feedback board
+                </Link>
               </li>
               <li>
                 <a

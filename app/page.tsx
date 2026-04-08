@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
@@ -22,15 +21,17 @@ export default function Home() {
               A simple and beautiful document tracking app designed to help you never miss a renewal deadline
             </p>
             <div className='animate-fade-up animate-delay-2'>
-              <Link
-                href='/waitlist'
+              <a
+                href='https://play.google.com/store/apps/details?id=com.wal33dahmad.weydocs'
+                target='_blank'
+                rel='noopener noreferrer'
                 className='inline-flex items-center gap-2.5 bg-accent text-white px-7 py-3.5 rounded-full text-base font-semibold hover:bg-accent-dark transition-colors'
               >
                 <svg width='18' height='18' viewBox='0 0 24 24' fill='currentColor'>
                   <path d='M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.144 1.24a1 1 0 0 1 0 1.724l-2.144 1.222-2.53-2.529 2.53-2.657zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z' />
                 </svg>
-                Get Early Access
-              </Link>
+                Download on Google Play
+              </a>
             </div>
           </div>
 
